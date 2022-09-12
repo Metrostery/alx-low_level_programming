@@ -3,7 +3,7 @@
  * main-says the sizes of caracters
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	char c;
 	int i;
@@ -11,10 +11,10 @@ int main (void)
 	long long lli;
 	float f;
 
-	printf("size of a char: %ld byte(s)\n", sizeof(c));
-	printf("size of an int: %ld byte(s)\n", sizeof(i));
-	printf("size of a long int: %ld byte(s)\n", sizeof(li));
-	printf("size of a long long int: %ld bytes(s)\n", sizeof(lli));
-	printf("size of a float: %ld byte(s)\n", sizeof(f));
+	printf("Size of a char: %ld byte(s)\n", sizeof(c));
+	printf("Size of an int: %ld byte(s)\n", sizeof(i));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(li));
+	printf("Size of a long long int: %ld bytes(s)\n", sizeof(lli));
+	printf("Size of a float: %ld byte(s)\n", sizeof(f));
 	return (0);
 }
