@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <stdio.h>i
+#include <main.h>
 /**
  * main - prints putchar
  * using main
