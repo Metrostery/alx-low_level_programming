@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-void reset_to_98(int *);
+#include "main.h"
 
 /**
  * main - check the code
@@ -8,6 +7,7 @@ void reset_to_98(int *);
  *
  * Return: always 0.
  */
+
 int main(void)
 {
 	int n;
