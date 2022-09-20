@@ -16,7 +16,7 @@ int main(void)
 	p = &n;
 	printf("n = %d\n", n);
 
-	*p = 98
+	*p = 98;
 	printf("n = %d\n", n);
 	return (0);
 }
