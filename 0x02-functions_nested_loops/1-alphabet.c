@@ -2,7 +2,7 @@
 
 /**
  * main - prints alphabets
- * Description: uses a called function
+ * description: uses a called function
  *
  * Return: always 0
  */
