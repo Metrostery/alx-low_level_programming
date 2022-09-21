@@ -2,7 +2,6 @@
 
 /**
  * main - prints out letters
- * @print_alpha: prints
  *
  * Description: using new function
  * Return: always 0
@@ -10,7 +9,7 @@
 
 void print_alphabet_x10(void)
 {
-	int i;
+	char i;
 
 	while (i < 10)
 	{
