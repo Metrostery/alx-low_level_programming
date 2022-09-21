@@ -2,22 +2,18 @@
 
 /**
  * main - prints alphabets
- * using main
+ * Description: known
  *
- * Return: 0
+ * Return: always 0
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char ch;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
+	for(ch = 'a';  ch <= 'z'; ch++)
 	{
-		print_alphabet(void);
-		{
-		putchar(ch);
-		}
+		_putchar(ch);
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
