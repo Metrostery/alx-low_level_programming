@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - check the code
@@ -7,16 +7,7 @@
  * Return: always 0.
  */
 
-int main(void)
+void reset_to_98(int *n)
 {
-	int n;
-	int *p;
-
-	n = 402;
-	p = &n;
-	printf("n = %d\n", n);
-
-	*p = 98;
-	printf("n = %d\n", n);
-	return (0);
+	*n = 98
 }
