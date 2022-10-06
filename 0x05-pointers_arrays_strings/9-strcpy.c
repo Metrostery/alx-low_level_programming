@@ -8,7 +8,7 @@
  * Return: dest
  */
 
-void *_strcpy(int *dest, int *src)
+void _strcpy(int *dest, int *src)
 {
 	int n = 0;
 	int i;
